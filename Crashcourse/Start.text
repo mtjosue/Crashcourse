@@ -1,0 +1,1109 @@
+Our Operating System or OS
+
+    macOS version Sonoma 14.2.1
+
+    MacOS is a Unix-based system.
+
+        It was built to model the Unix OS using the Darwin Kernel OS which itself incorporates Unix-like principles. 
+
+            Multiuser: 
+            
+                Unix systems support multiple users simultaneously, with each user having their own account and permissions.
+
+            Multitasking: 
+
+                Unix systems can execute multiple processes concurrently, allowing users to run several programs simultaneously.
+
+            Hierarchical file system:
+
+                Unix organizes files and directories in a hierarchical structure, starting from the root directory ("/") and branching out into subdirectories.
+
+            Shell: 
+
+                Unix systems use a command-line interface called a shell, which allows users to interact with the operating system by entering commands.
+
+            Portability: 
+            
+                Unix was designed to be portable across different hardware platforms, making it widely adaptable to various computer architectures.
+
+            Networking: 
+            
+                Unix systems have robust networking capabilities built into their design, making them suitable for networked environments.
+
+    Every OS has a Terminal/CLI "Command Line Interface"
+
+        We communicate with the operating system through here.
+
+        Gives us the environment to execute OS Commands and recieve information.
+
+        Some OS Commands (Which are Unix-based OS commands) are:
+
+            cd = change directory
+
+            ls = list directory contents
+
+            mkdir [folderName] = make a folder aka directory.
+
+            rm [fileName] = remove/delete a file.
+
+            pwd = print working directory
+
+            sudo = Execute command with the highest permission, 
+
+                runas = same in widnows.
+
+        These commands can have FLAGS.
+
+            ls -a = Print/display all files in the current directory including hidden files.
+
+            rm -rf [foldername] = remove all the files recursively -r and force the deletion without confirmation -f.
+
+            cd .. = Go back to parent directory, move outward bye one directory.
+
+        Aliases
+
+            Custom or default shortcuts to predefined commands.
+
+            1 = cd ..
+
+            md [parent/child] = mkdir -p [parent/child] = make directory with parent directory as well. If parent directory exists only make child directory.
+
+            la = l -lAh 
+
+                ls: This is the command to list directory contents.
+
+                -l: This is an option flag that stands for "long format." It instructs the ls command to provide detailed information about each file or directory, including permissions, owner, group, size, and modification date.
+
+                -A: This is another option flag that stands for "almost all." It instructs the ls command to list all files and directories, including hidden ones (those whose names begin with a dot ., which are typically hidden in Unix-based systems).
+                
+                -h: This is an additional option flag that stands for "human-readable." It instructs the ls command to display file sizes in a human-readable format, such as kilobytes, megabytes, or gigabytes, rather than in bytes.
+
+        Terminal/CLI allows us to install a SHELL.
+
+            zsh, bash, fish. Common shells you can install.
+
+            They are Unix-based or Unix-like shells that provide many features.
+
+                Autocompletion: Zsh provides powerful autocompletion features, including context-aware suggestions and completion for command options, file paths, and more.
+
+                Aliases: Zsh allows users to define aliases for commands, similar to other shells like Bash. These aliases can be used to create shortcuts for frequently used commands or command sequences.
+
+                Spelling Correction: Zsh includes built-in spelling correction for command names and arguments, helping users catch typos and correct them on the fly.
+
+                Prompt Customization: Zsh provides extensive options for customizing the shell prompt, allowing users to display various information such as username, hostname, current directory, git branch, and more.
+
+                Parameter Expansion: Zsh offers advanced parameter expansion capabilities, allowing for variable manipulation, substitution, and more.
+
+                Functions: Zsh supports the creation of functions, which are blocks of shell code that can be invoked by name. Functions can be used to encapsulate complex operations or create custom commands.
+
+                Job Control: Zsh provides robust job control features, allowing users to manage and manipulate running processes easily.
+
+                Plugins: Zsh can be extended with plugins, which provide additional functionality such as syntax highlighting, autosuggestions, and more.
+
+                Extended Globbing: Zsh supports extended globbing patterns, allowing for more complex and flexible file matching.
+
+                History Substitution: Zsh offers powerful history manipulation capabilities, including event designators and modifiers, allowing users to recall and manipulate previous commands easily.
+
+        We can install a Package Manager onto the OS/Terminal/CLI.
+
+            npm = Node package manager
+
+            yarn = Apples native package manager
+
+            pnpm = Performant node package manager
+
+            ect...
+
+            Helps us access, download, and install packages from the internet onto our project.
+
+            Packages are bundles of code that can produce different functionality.
+
+                Code already written, implemented to fulfill some functionality.
+
+            Package Manager Commands
+
+                pnpm = Opens common and default usage instructions.
+
+                pnpm add [packageName]/[libraryName] = Downloads and installs onto directory/project the package/s of your choice.
+
+                    Libraries are just multple packages bundled together.
+
+                pnpm install = If inside a project with a package.json file. Will install all the dependencies listed on it. Also generates a local prisma schema.
+
+            Aliases
+
+                pn i = pnpm install
+
+                pn dev = pnpm run dev
+
+                pn u = pnpm update
+
+        We can also install a Distributed Version Control System to our OS/Terminal/CLI.
+
+            Github
+
+            Used to keep track of work and progress.
+
+            GITHUB COMMANDS
+
+                git add [fileName] = Add the file specified onto the next commit you make. Essentially "staging" them.
+
+                git commit -m "[MESSAGE/SUBJECT IN QUESTION]" = Creates a snapshot of the staged changes in order to keep track of a history of changes.
+
+                git push origin [workingBranch] = pushes the staged changes onto the current working branch. Pushes onto github repo. Where you can track all branches.
+
+            Aliases
+
+                g = git
+
+                ga [fileName] = add specified file onto staged for committing.
+
+                gaa = git add . = "git add all" = adds all changes found on all files found to be staged.
+
+                g cm "[message]" = git commit -m "" = Creates a snapshot of the staged changes in order to keep track of a history of changes.
+
+                g ps = git push origin [setRemoteOriginOfBranch]
+
+        We can install Command-Line Text Editor
+
+            nano
+
+                Used to view and edit files in the terminal
+
+                Edit hidden configuration files.
+
+                Used as a prefix before specifying the file you wish to access and edit.
+
+        Sub-Commands
+
+            These are keywords that can be added to a command with a space in between.
+
+            pn prisma db push
+
+            pn run dev
+
+            pn lint
+
+            pn build
+
+            pn prisma studio
+
+    We can install an IDE "Intergrated Developer Environment"
+
+        An IDE aka Text Editor.
+
+            Setup and Start:
+
+                Prettier Formatter.
+
+                All the other extensions.
+
+                Font Theme.
+
+                Window sections.
+
+                Tools.
+
+                Debugger.
+
+                Keyboard Shortcuts.
+
+                    cmd + p 
+
+                        Access a file within the codebase aka project.
+
+                    cmd + shift + p
+
+                        Access IDE commands.
+
+                            restart/reload windows.
+
+                                Unknown errors not able to troubleshoot.
+
+                                activate/deactivate VIM.
+
+                                reset typescript server.
+
+                                Other settings.
+
+                    cmd + f
+
+                        Search Widget.
+
+                            can take in regular expressions.
+
+                            find and replace.
+
+                            search entire document/file for particular keywords.
+
+                    cmd + d
+
+                        Select entire word that is touching your insertion point.
+
+                        Use multiple times to select all the exact words that match the selected word 
+
+                            In order to change all of them at the same time.
+
+JavaScript
+
+    Primitive Values
+
+        String = "Hello World"
+
+        Number = Interger in between -Infinity and Infinity, ie: -2, -1, 0, 1, 2, ..
+
+        Boolean = true or false
+
+        Null = Intentioinal absence of value.
+    
+        Undefined = Unintentional absence of value.
+
+        BigInt = Represents intergers of arbitrary length. ie: 123124141231241231231241231231..
+
+        Symbol = Used to create unique identifiers that can be used as property keys for object properties ie: 
+
+            const mySymbol = Symbol('mySymbol');
+            const anotherSymbol = Symbol('mySymbol');
+            console.log(mySymbol === anotherSymbol); // false
+
+    Variable Declarations, Key Words, and overall fundamentals Syntax
+
+        var: 
+        
+            Used to declare variables with function scope (or global scope if declared outside of a function). *Deprecated*
+
+        let: 
+        
+            Used to declare block-scoped variables. Introduced in ES6. (Replaces "var" keyword).
+
+        const: 
+            
+            Used to declare block-scoped constants. The value of a constant cannot be reassigned once initialized. Introduced in ES6.
+
+        Control Flow Keywords:
+
+            if, else: 
+            
+                Used for conditional execution of code blocks.
+                    
+            switch, case, default: 
+            
+                Used for multi-way branching.
+
+            for, while, do-while: 
+            
+                Used for loop constructs.
+            
+            break, continue: 
+            
+                Used to control loop execution.
+            
+            return: 
+            
+                Used to exit a function and return a value.
+        
+        Function Keywords:
+
+            function: 
+            
+                Used to declare functions.
+            
+            => (arrow function syntax): 
+            
+                Used for concise function expressions. Introduced in ES6.
+        
+        Module System Keywords:
+
+            export, import: 
+            
+                Used for defining and importing modules in JavaScript. Introduced in ES6.
+        
+        Error Handling Keywords:
+
+            try, catch, finally: Used for exception handling.
+        
+        Other Keywords and more Javascript Syntax:
+
+            class: Used to define classes in JavaScript. Introduced in ES6.
+
+            super: Used to call methods on an object's parent.
+
+            this: Refers to the current execution context.
+
+            typeof: Used to determine the type of a variable.
+
+            instanceof: Used to check if an object is an instance of a particular class.
+
+            new: Used to create an instance of a user-defined object type created through a constructor function or one of the built-in object types that has a constructor function.
+
+            export default: Exports the file or specified "part" of a file.
+
+    Data Structures
+
+        objects
+
+            Objects are one of the fundamental building blocks of any JS based project.
+
+            Key Value Pairs. 
+
+            Referred to as an object's properties.
+
+            {
+                title: "My First Post",
+                text: "The internet is so cool"
+                date: "11/13/1980"
+            }
+
+            {
+                name: "Josue",
+                age: 31,
+                admin: true,
+                blackBelt: null
+            }
+
+            {
+                a: 1,
+                b: 2,
+                c: 3,
+                d: 4
+            }
+
+            Accessing
+
+                .
+
+                    dot notation.
+
+                        const person = {
+                            name: "Josue",
+                            age: 31,
+                            admin: true,
+                            blackBelt: null
+                        }
+
+                        person.age
+
+                        person.admin
+
+                        console.log(person.name) 
+                        
+                            OUTPUT => "Josue"
+
+                [""]
+
+                    bracket notation.
+
+                        const person = {
+                            name: "Josue",
+                            age: 31,
+                            admin: true,
+                            blackBelt: null
+                        }
+
+                        person["age"]
+
+                        person["admin"]
+
+                        console.log(person["name"])
+
+                            OUTPUT => "Josue"
+
+        arrays
+
+            Also another fundamental building block of any JS based project.
+
+            [1, 2, 3, 4, 5]
+
+            ["a", "b", "c", "d", "e"]
+
+            [
+                {
+                    name: "Josue",
+                    age: 31,
+                    admin: true,
+                    blackBelt: null
+                },
+                {
+                    name: "Lisbeth",
+                    age: 28,
+                    admin: true,
+                    blackBelt: true
+                },
+                {
+                    name: "Onyx",
+                    age: 1,
+                    admin: false,
+                    blackBelt: true
+                },
+                {
+                    name: "Nova",
+                    age: 1,
+                    admin: false,
+                    blackBelt: true
+                },
+            ]
+
+            Accessing
+
+                Arrays are accessed through the index.
+
+                In JS arrays are 0 - index based.
+
+                we simple need the bracket notation []
+
+                    passed with the index we wish to access ie:
+
+                    const arrayExample = ["a", "b", "c", "d", "e"];
+
+                    arrayExample[0] = "a"
+                    arrayExample[1] = "b"
+                    arrayExample[2] = "c"
+
+    Data Structures Procedures
+
+        Methods
+
+            Are functions that already exist on data structures. 
+
+            Default JS types functionalities
+
+            Array Methods
+
+                for arrays we use the dot notation "."
+
+                    Reference : /public/helpful.images/JSarrayMethods.png
+
+            Object Methods
+
+                for objects we find the methods we want by using the "Object" keyword
+
+                then using the dot notation "."
+
+                finally passing the object we wish to perform the method onto.
+
+                ie:
+
+                    const harryPotter = {
+                        first: {
+
+                        },
+                        second: {
+                            title: "Hary Potter and The Chamber of Secrets",
+                            yearReleased: 2002,
+                        }
+                    }
+
+                    Object.keys(harryPotter)
+
+                        OUTPUT => ["first", "second"]
+
+                Object.keys(obj) 
+                
+                    Returns an array of a given object's own enumerable property names.
+
+                Object.values(obj) 
+                
+                    Returns an array of a given object's own enumerable property values.
+
+                Object.entries(obj) 
+                
+                    Returns an array of a given object's own enumerable property [key, value] pairs.
+
+                Object.assign(target, ...sources) 
+                
+                    Copies the values of all enumerable own properties from one or more source objects to a target object.
+
+                Object.hasOwnProperty(prop) 
+                    
+                    Returns a boolean indicating whether the object has the specified property as its own property (not inherited from prototypes).
+
+                Object.freeze(obj) 
+                
+                    Freezes an object, preventing new properties from being added to it, existing properties from being removed, and values from being changed.
+
+                Object.seal(obj) 
+                
+                    Seals an object, preventing new properties from being added to it and marking all existing properties as non-configurable.
+
+                Object.getOwnPropertyNames(obj) 
+                
+                    Returns an array of all properties (enumerable or not) found directly upon a given object
+
+        Destructuring properties
+
+            const person = {
+                name: "Josue",
+                age: 31,
+                admin: true
+            }
+
+            const { name } = person; 
+
+            const { age, admin } = person; 
+
+                isntead of
+
+                    person.name
+
+                    person["age"]
+
+        Spread Operator
+
+            ...
+
+                Allows us to pass the entire object's properties without having to specify them.
+
+                Allows us to pass all values in an array without having to specify them.
+
+    Operators
+
+        Arithmetic Operators:
+
+            + 
+                Addition
+
+            - 
+                Subtraction
+
+            * 
+                Multiplication
+
+            / 
+                Division
+
+            % 
+                Modulus (remainder)
+
+            ** 
+                Exponentiation
+
+        Assignment Operators:
+
+            = 
+                Assigns a value to a variable
+
+            += 
+                Adds and assigns
+
+            -= 
+                Subtracts and assigns
+
+            *= 
+                Multiplies and assigns
+
+            /= 
+                Divides and assigns
+
+            %= 
+                Modulus and assigns
+
+        Comparison Operators:
+
+            == 
+                Equal to
+
+            != 
+                Not equal to
+
+            === 
+                Strict equal to (checks both value and type)
+
+            !== 
+                Strict not equal to (checks both value and type)
+
+            > 
+                Greater than
+
+            < 
+                Less than
+
+            >= 
+                Greater than or equal to
+
+            <= 
+                Less than or equal to
+        
+        Logical Operators:
+
+            && 
+                Logical AND
+
+            || 
+                Logical OR
+
+            ! 
+                Logical NOT
+        
+        Unary Operators:
+
+            ++ 
+                Increment
+
+            -- 
+                Decrement
+
+            typeof 
+                Returns the type of a variable
+
+            delete 
+                Deletes a property from an object
+
+            void 
+                Specifies an expression to be evaluated without returning a value
+
+        Bitwise Operators:
+
+            & 
+                Bitwise AND
+
+            | 
+                Bitwise OR
+
+            ^ 
+                Bitwise XOR
+
+            ~ 
+                Bitwise NOT
+
+            << 
+                Left shift
+
+            >>
+                Right shift
+
+            >>> 
+                Unsigned right shift
+
+        Ternary (Conditional) Operator:
+
+            condition ? value1 : value2 
+            
+                Evaluates condition, if true, returns value1, otherwise returns value2
+
+    Loops
+
+        for loop:
+
+            for ([initialization]; [condition]; [final-expression]) {
+                // code block to be executed
+            }
+            
+            Example:
+
+                for (let i = 0; i < 5; i++) {
+                    console.log(i);
+                }
+
+        while loop:
+
+            while ([condition]) {
+                // code block to be executed
+                [update condition]
+            }
+            
+            Example:
+
+                let i = 0;
+                while (i < 5) {
+                    console.log(i);
+                    i++;
+                }
+
+        for...in loop (used to iterate over enumerable properties of an object):
+
+            for (variable in object) {
+                // code block to be executed
+            }
+
+            Example:
+
+                const person = {
+                    name: 'John',
+                    age: 30,
+                    gender: 'male'
+                };
+
+                for (let key in person) {
+                    console.log(key + ': ' + person[key]);
+                }
+
+        for...of loop (used to iterate over iterable objects such as arrays, strings, etc.):
+
+            for (variable of iterable) {
+                // code block to be executed
+            }
+            
+            Example:
+
+                const nums = [1, 2, 3, 4, 5];
+                for (let num of nums) {
+                    console.log(num);
+                }
+
+        if, else if, else statement:
+
+            if (condition1) {
+                // code block to be executed if condition1 is true
+            } else if (condition2) {
+                // code block to be executed if condition2 is true and condition1 is false
+            } else {
+                // code block to be executed if neither condition1 nor condition2 is true
+            }
+
+            Example:
+
+                let num = 15;
+
+                if (num > 0) {
+                    console.log('Number is positive');
+                } else if (num < 0) {
+                    console.log('Number is negative');
+                } else {
+                    console.log('Number is zero');
+                }
+
+        switch statement:
+
+            switch (expression) {
+                case value1:
+                    // code block to be executed if expression matches value1
+                    break;
+                case value2:
+                    // code block to be executed if expression matches value2
+                    break;
+                case value3:
+                    // code block to be executed if expression matches value3
+                    break;
+                ...
+                default:
+                    // code block to be executed if expression doesn't match any case
+            }
+
+            Example:
+
+                const conditions = ["bad", "good", "great"];
+                let condition = conditions[0];
+                let propertyValue;
+
+                switch (condition) {
+                    case 'bad':
+                        propertyValue = 'Value for property is 50,000';
+                        break;
+                    case 'good':
+                        propertyValue = 'Value for property is 75,000';
+                        break;
+                    case 'great':
+                        propertyValue = 'Value for property is 100,000';
+                        break;
+                    default:
+                        propertyValue = 'No property condition found';
+                        break;
+                }
+
+                console.log(propertyValue); // Output: Value for property is 50,000 
+
+    JS is Single threaded
+
+            JS is a {Stack} 
+
+            Dealing with information not yet present. 
+
+            Callback functions.
+
+                Functions that execute once another set of computations is done evaluating.
+
+            Promises.
+
+                The completion of an awaited computation.
+
+            Asynchronous = async & await
+
+                Browsers Event Queue
+
+                How JS and the Browser's event queue work together.
+
+                The Stack and the Queue.
+
+            Good reference video:
+
+                https://www.youtube.com/watch?v=PoRJizFvM7s&t=13s
+
+Front-end
+
+    HTML
+
+        Intended purpose is to help render any type of content on to a screen.
+
+        Predefined set of elements with an accompanying set of rules known as semantics
+
+            Only 1 <h1> element/tag per page per website. Which is the biggest header element from the HTML default elements.
+
+                Should use <h> "header" elements in heirarchical order. <h1> <h2> <h3>
+                
+                Good semantics
+
+            Only some elements can be self-closing.   
+
+        example
+
+        <!DOCTYPE html>
+        <html lang="en">
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <script src="script.js">
+                    let a = 0;
+                    if (!a) console.log("Hello")
+                </script>
+                <title>Browser Tab Title</title>
+            </head>
+            <body>
+                <h1>Visual Title/Header of the page</h1>
+                <p>This is a paragraph in HTML.</p>
+                <ul>
+                    <li>Item 1</li>
+                    <li>Item 2</li>
+                    <li>Item 3</li>
+                </ul>
+            </body>
+        </html>
+
+
+    XML
+
+        Intended purpose is to define and store data/information.
+
+        Used for Data interchange between systems and for configuration files.
+
+        Allows defenitions of our own tags.
+
+        example: 
+
+            <library>
+                <book>
+                    <title>Harry Potter and the Sorcerer's Stone</title>
+                    <author>J.K. Rowling</author>
+                    <genre>Fantasy</genre>
+                    <year>1997</year>
+                </book>
+                <book>
+                    <title>To Kill a Mockingbird</title>
+                    <author>Harper Lee</author>
+                    <genre>Classic</genre>
+                    <year>1960</year>
+                </book>
+            </library>
+    
+    JSX
+
+        Combines 
+
+            HTML's native default elements and its structured data representation.
+
+            JavaScript's expressive power and functionality operations.
+
+            and
+
+            XML's custom element creation.
+
+    TSX
+
+        Combined all the above with typescript.
+
+        Now even JSX elements/components and their events have type defenitions.
+
+    Element / Component properties
+
+        Properties we pass on to elements or components relevant to their execution.
+
+        ie:
+
+            <label 
+                htmlFor="nameInputElement"
+                className="font-bold text-white"
+            >
+                Name of person
+            </label>
+
+            <input 
+                id="nameInputElement" 
+                type="text" 
+            />
+
+        Properties can either be optional or required.
+
+            <form 
+                onSubmit={*function passed here*} // REQUIRED PROPERTY
+            >
+            
+            </form>
+
+            element requires you to pass a "onSubmit" property.
+
+        Custom elements / components can be modeled as we please.
+
+            Example in project: *RequiredPropertyComponent*
+
+    React
+
+        React is a JavaScript library for building user interfaces (frontend), particularly for web applications. 
+        
+        It was developed by Facebook and is widely used by companies like Instagram, Airbnb, and Netflix.
+
+        React allows developers to create reusable UI components that manage their own state, 
+        
+            which makes building complex user interfaces more manageable and efficient. 
+            
+            It follows a component-based architecture, where the UI is composed of individual components 
+            
+            that can be nested within each other.
+
+        Class components
+
+            A class is a type of function that defines a blueprint for creating objects with similar properties and methods. 
+            
+            It provides a way to create reusable objects with predefined behavior.
+
+            The constructor function/method is a special function/method that is automatically called 
+            
+            when a new instance of the class is created. It initializes the object's properties.
+
+                class Person {
+                    constructor(name, age) {
+                        this.name = name;
+                        this.age = age;
+                    }
+
+                    greet() {
+                        return `Hello, my name is ${this.name} and I'm ${this.age} years old.`;
+                    }
+                }
+
+                const person1 = new Person('Alice', 30);
+                console.log(person1.greet()); // Output: Hello, my name is Alice and I'm 30 years old.
+
+            In the context of React, class components are JavaScript classes that extend React.Component. 
+            
+            They define components with state, lifecycle methods, and other functionalities that are useful 
+            
+            for building user interfaces.
+
+            "extends" keyword/syntax
+
+                When creating a class component in React, you extend the React.Component class to inherit its functionalities. 
+                
+                This inheritance is crucial because React.Component provides a set of methods and properties that are essential 
+                
+                for defining and managing React components.
+
+            Lifecycle methods (inherited from "extending" the class of React.Component).
+
+                Commonly used lifecycle methods:
+
+                    constructor()
+
+                        The constructor method is called when a component is initialized.
+                        
+                        It's used for initializing state, binding event handlers, and other setup operations.
+                        
+                        Example:
+
+                            class MyComponent extends React.Component {
+                                constructor(props) {
+                                    super(props);
+                                    this.state = {
+                                    count: 0
+                                    };
+                                }
+                                
+                                render() {
+                                    return <div>{this.state.count}</div>;
+                                }
+                            }
+
+                    componentDidMount():
+
+                        This method is called after the component is rendered for the first time.
+
+                        It's commonly used for fetching data from APIs, setting up subscriptions, 
+                        
+                        or performing other initialization tasks that require interaction with the DOM.
+                
+                        Example:
+
+                            class MyComponent extends React.Component {
+                                componentDidMount() {
+                                    // Fetch data from API
+                                    fetch('https://api.example.com/data')
+                                    .then(response => response.json())
+                                    .then(data => {
+                                        // Update component state with fetched data
+                                        this.setState({ data: data });
+                                    });
+                                }
+                                
+                                render() {
+                                    return <div>{/* Render data */}</div>;
+                                }
+                            }
+
+                    componentDidUpdate():
+
+                        This method is called after a component's state or props change and the component re-renders.
+                        
+                        It's used for performing side effects, such as updating the DOM or making additional API calls 
+                        
+                        based on the new state or props.
+                        
+                        Example:
+
+                            class MyComponent extends React.Component {
+                                componentDidUpdate(prevProps, prevState) {
+                                    if (prevProps.userId !== this.props.userId) {
+                                    // Fetch new user data when userId prop changes
+                                    this.fetchUserData(this.props.userId);
+                                    }
+                                }
+                                
+                                fetchUserData(userId) {
+                                    // Fetch user data from API based on userId
+                                }
+                                
+                                render() {
+                                    return <div>{/* Render user data */}</div>;
+                                }
+                            }
+
+                    componentWillUnmount():
+
+                        This method is called before a component is removed from the DOM.
+                        
+                        It's used for cleanup operations, such as unsubscribing from event listeners or clearing timers, 
+                        
+                        to prevent memory leaks.
+                        
+                        Example:
+
+                            class MyComponent extends React.Component {
+                                componentDidMount() {
+                                    // Add event listener
+                                    document.addEventListener('click', this.handleClick);
+                                }
+                                
+                                componentWillUnmount() {
+                                    // Remove event listener to prevent memory leaks
+                                    document.removeEventListener('click', this.handleClick);
+                                }
+                                
+                                handleClick() {
+                                    // Handle click event
+                                }
+                                
+                                render() {
+                                    return <div>{/* Render component */}</div>;
+                                }
+                            }
+
+
+
+        Functional components

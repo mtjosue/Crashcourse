@@ -1,0 +1,193 @@
+Session 2 topics covered:
+
+CLI commands breakdown
+
+    sudo
+
+        commands that allows us to execute the following commands with the highest permissions. (Administrative Permissions).
+
+    apt
+
+        Advanced Package Tool
+
+            Allows us to install, update, and upgrade packages onto our Operating System.
+
+    install
+
+        Installs packages on to OS.
+
+    update
+
+        Updates the references of our OS packages available for download
+        
+        To compare with our own versions.
+
+    Upgrade
+
+        References the versions of our current packages and upgrades them according to their latest versions that we have accounted for (with update).
+
+    && operator for commands
+
+        Allows us to execute commands concecutively. While the previous command is succesful it will continue to execute the next command.
+
+        sudo apt update && sudo apt upgrade
+
+HTML
+
+    Predefined Elements
+
+        <head></head>
+
+            Where we include metadata, import Javascript files, and even import CSS files into our HTML document.
+
+            We can also define a <title></title> to denote the "browser tab" title.
+
+        <h1></h1>
+
+            Header / Title of website.
+
+        <body></body>
+
+            Where insert the contents we wish to render.
+
+        SIDENOTE:
+
+            the last part of the element is the "closing tag" of an element ie:
+
+                </head> - </body> - </h1>
+
+            Some elements can be made to "self close" ie:
+
+                <div property=value property=value property=value />
+
+                   ends with /> instead of >
+
+                which does not need a closing tag. It is self closing.
+
+    Semantics
+
+        How we follow rules for better SEO and disability screen readers.
+
+        <h1> -> <h2> -> <h3>
+
+        Having a <body> elements followed by a <footer> element.
+
+            Denoting proper <section> elements inside the <body> element.
+
+    Properties (Properties passed onto an element)
+
+        Properties are passed to an element as options.
+
+            Some properties are or can be made REQUIRED.
+
+            While other properties are or can be made OPTIONAL.
+
+        First property we addressed.
+
+            classnames=""
+
+                Property used to denote classes "styles" we wish to apply to an element.
+
+                We can use Tailwind CSS syntax to denote which style classes to apply to a given element. ie:
+
+                    classnames="border-2 border-red-600 font-bold text-xl"
+
+XML
+
+    Being able to write our own elements into existence.
+
+    <Josue></Josue>
+    <Lisbeth></Lisbeth>
+    <ToDo /> *self closing
+
+Javascript interacting with HTML and XML = JSX => TSX
+
+    Array 
+
+        A list of elements.
+
+            **Not like HTML elements.
+
+            Javascript elements are considered to be (something) that sits inside an array.
+
+        [1, 2, 3, 4, 5]
+
+            An array of numbers.
+
+        ["josue", "lisbeth", "Ana", "Pedro"]
+
+            An array of strings.
+
+        [3, true, "blue", null, false] -->> [number, boolean, string, null, boolean]
+
+            Array with different types of elements.
+
+    Truthy Values
+
+        values which can evaluate and will be interpreted as true.
+
+            positive numbers 1 - 10 - Infinity.
+
+            boolean true.
+
+            A string which has some characters in it, at least 1. "Something in it".
+
+    Falsey Values
+
+        values which can evaluate and will be interpreted as false.
+
+            Any negative number -2, -1, and 0. Zero.
+
+            boolean false.
+
+            empty string ie: ""
+
+            empty Array []
+
+    How we can "evaluate" data inside our HTML.
+
+    use conditionals to render different data. Specifically using the "bracket notation" {} inside of our JSX "return". ie:
+
+        {name ? <div>Yes its Josue</div> : <div>No It is not Josue</div>}
+
+        There are a few other ways to conditionally render content..
+
+    ! - bang Operator (Local NOT operator)
+
+        Operator used to denote the opposite.
+
+        example:
+
+            const a = true;
+
+            a ? "do this" : "do this instead"
+
+                a will evaluate to true.
+
+                if we then say 
+
+                    !a ? "do this" : "do this instead"
+
+                        We are saying -> if a is NOT true
+
+                            Basically if what ever a is with ! in front it should end up being a falsey value. 
+
+                                if that is true (that the end result is false) then execute the next result : Otherwise execute the later result.
+
+    Ternary Operator follows the rule:
+
+        conditions to be evaluated  ?  if the previous condition is true results in this code  :  else results in this code.
+
+            {!name ? <div>Yes its Josue</div> : <div>No It is not Josue</div>} 
+
+Chrome Developer Tools
+
+    right click "inspect"
+
+    top left "Element Selection" Tool.
+
+        Allows us to hover over elements on the webpage to see their details ie: 
+        
+            Properties
+            
+            Spacing attributes 

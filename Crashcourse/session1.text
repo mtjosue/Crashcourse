@@ -1,0 +1,103 @@
+So far subjects covered:
+
+Database types
+
+    Relational Databases.
+
+        Like excel every model in our schema has an order and expectations.
+
+        Atomicity, Consistency, Isolation, Durability
+
+    Non-Relational Databases.
+
+        Have the freedom of no order or expectations of which to store and relate data.
+
+        Faster writes/updates, Flexibility, Fault Tolerance
+
+    Geospatial Querying.
+
+        Querying not on a list (models in our database) but with coordinates or points on a map.
+
+Viewport
+
+    Screen space taken up by the page that borders the rest of the browser GUI (Graphic User Interface).
+
+Prisma Schema models
+
+    The shape or "model" of the data being stored and retreived.
+
+    Primitive types used in Prisma models.
+
+        Int 
+        String
+        Boolean
+
+    Instances of a model.
+
+        The pseudo-creation of a "person" instance based of a "Person" model.
+
+JS Primitives
+
+    Number
+    String
+    Boolean
+    Null
+    Undefined
+
+    [[1, 2, 3], [4, 5, 6, 7], []]
+
+    [true, "hello", 10, () => {}]
+
+tRPC (Typescript Remote Procedure Call)
+
+    Layer on top of node, express, next.js
+
+        Write code more comfortably that will get transpiled into regular HTTP requests.
+
+            GET, POST, PUT, PATCH, and DELETE = HTTP request methods. 
+
+                PUT replaces entire data.
+
+                PATCH updates some properties of the data.
+
+    Types of request / CRUD in tRPC
+
+        queries
+
+            GET requests.
+
+        mutations
+
+            POST / PUT / PATCH / DELETE requests.
+
+Terminal/CLI
+
+    OS features
+
+        Commands, Flags
+
+    Shell features.
+
+        Aliases, Autocomplete
+
+    CLI Text Editor
+
+        Ability to see & edit files on the Terminal
+
+            nano
+
+    Package Manager
+
+        Packages => Libraries (abudant package which contains many different functionalities/smaller packages)
+
+        npm (Node Package Manager) => npm website => heroIcons package visit.
+
+Chrome Developer Tools
+
+    Elements
+
+        elements === tags => components (Many elements put together).
+
+        Elements spacing
+        
+            element (Blue) - padding (Green) - border (Yellow) - margin (Orange)

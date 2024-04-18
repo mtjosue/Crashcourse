@@ -26,8 +26,10 @@
     /* Path Aliases */
     "baseUrl": ".",
     "paths": {
-      "~/*": ["./src/*"]
-    }
+      "~/*": ["./src/*"],
+      "@heroicons/react/": ["./node_modules/@heroicons/react/"]
+    },
+    "typeRoots": ["./types", "./node_modules/@types"]
   },
   "include": [
     ".eslintrc.cjs",
