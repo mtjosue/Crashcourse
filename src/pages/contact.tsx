@@ -1,9 +1,12 @@
 import React from "react";
 
-// type Props = {};
+type Props = {
+  rounds: 10;
+};
 const name = true;
 
-const contact = () => {
+// condtion to evaluate ? if true execute this : otherwise execute this.
+const contact = ({ rounds }: Props) => {
   return (
     <div
       style={{

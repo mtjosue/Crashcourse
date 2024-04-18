@@ -101,7 +101,10 @@ export default function Home() {
                 className="flex gap-x-3"
                 onSubmit={handleSubmit(onSubmitPost)}
               >
-                {/* <RequiredPropertyComponent name={person.name} /> */}
+                <RequiredPropertyComponent
+                  name={person.name}
+                  age={person.age}
+                />
                 <div className="flex w-1/2 flex-col">
                   <label htmlFor="newPost" className="font-bold text-white">
                     New Post
