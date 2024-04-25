@@ -1,0 +1,328 @@
+Javascript
+
+    Main Subjects
+
+        JS fundamentals
+
+            Operators.
+
+            Control Flows.
+
+            Variable Declarations.
+
+            Data Structures.
+
+            Functions.
+
+        Core Objects.
+
+        Scope.
+
+    Primitive Values
+
+        number
+        string
+        boolean
+        null
+        undefined
+
+    Operators
+
+        Used to perform operations on data.
+
+        There are 28 operators in total, here are some:
+
+            =
+
+                Assignment Operator 
+                
+                    Used to save data onto a variable. 
+
+                        const onTime = true
+
+            ===
+
+                Strictly Equal Operator
+
+                    Used to check if two values are the same.
+
+                        if (onTime === true) {
+
+                        }
+
+            !==
+
+                Strictly Not Equal Operator
+
+                    Used to check if two values are not the same.
+
+                        if (onTime !== true) {
+
+                        }
+
+                        if (!onTime) {
+
+                        }
+
+    Control Flow keywords
+
+        There are a 16 control flow keywords in total, here are some:
+
+            if 
+
+                Used to check the evaluation of some operation.
+
+            else
+
+                Used as a "fall-back" block if the original if statement evaluation does not succeed.
+
+            if (addressVisible === true) {
+
+                If addressVisible evaluates to true, do this.
+
+            } else {
+
+                Else if its anything else, do this.
+                
+            }
+
+    Variable Declaration.
+
+        When we talk about JS.
+
+            We reference the latest version of JS.
+
+        var
+
+            Old keyword for variable declaration in JS.
+
+                Might see it out in the wild.
+
+        ES6 -> 2015 ->
+
+            There are 2 declarative keywords in modern JS.
+
+                let
+            
+                    Used when we want a variable value to be able to change into another. 
+                    
+                    Can be reassigned even to a different type of value
+
+                    Reassignment
+
+                        let num = 1;
+
+                        num = 2;
+
+                        num = true;
+
+                const 
+                
+                    Used when we want a variable to have a constant reference. 
+                    
+                    Cannot be reassigned in reference, but it is still mutable.
+
+                        const ready = true;
+
+        Naming convention in Javascript.
+
+            camelCase
+
+            totalLikes
+
+            availabeRoutes
+
+            morningGoodAfternoonHello
+
+        Quick Practice
+
+            Using camelCase naming convention.
+
+                Create 1 variable that can be reassigned.
+
+                Create 1 variable that is constant in reference.
+
+                Try to reassign both variables.
+
+    Data Structures
+
+            objects
+            
+                Foundantion and structure of most concepts in development.
+
+                Key Value Pairs. 
+
+                    const exampleObject = {
+                            key1: value1
+                            key2: value2
+                            key3: value3
+                        }
+
+                Each key is referred to as an object's property.
+
+                    const firstPost = {
+                        title: "My First Post",
+                        text: "The internet is so cool"
+                        date: "11/13/1992"
+                    }
+
+                    const dictionary = {
+                        a: 1,
+                        b: 2,
+                        c: 3,
+                        d: 4
+                    }
+
+                    const person = {
+                        name: "Josue",
+                        age: 31,
+                        admin: true,
+                    }
+
+                Quick Practice
+                    
+                    Define 1 object with 3 properties.
+
+                Accessing Objects
+
+                    .
+
+                        dot notation.
+
+                            const person = {
+                                name: "Josue",
+                                age: 31,
+                                admin: true,
+                                blackBelt: null
+                            }
+
+                            person.age
+
+                            person.admin
+
+                            console.log(person.name) 
+                            
+                                OUTPUT => "Josue"
+
+                    [""]
+
+                        bracket notation.
+
+                            const person = {
+                                name: "Josue",
+                                age: 31,
+                                admin: true,
+                                blackBelt: null
+                            }
+
+                            person["age"]
+
+                            person["admin"]
+
+                            console.log(person["name"])
+
+                                OUTPUT => "Josue"
+
+                Core Objects
+
+                    There are many objects provided from different places considered Core Objects.
+
+                        Javascript itself.
+
+                            Math
+                            Date
+
+                        nodejs (Javascript runtime environment).
+
+                            console
+                            window
+
+                        Web Storage API aka Browser API
+
+                            localStorage
+                            navigator
+
+                console
+
+                    .log
+
+                        Method to log onto your console/terminal whatever you would like.
+
+                            console.log("Log Whatever You Need to Visually See")
+
+                Properties vs Methods.
+
+                    Properties are bits of data stored in an Object.
+
+                    Methods are functions stored in an Object.
+
+                Quick Practice
+
+                    log to the console some property from the previously created object.
+
+                ** How DATA STRUCTURES vs VALUES are stored.
+
+                    When we declare a varibale with a value, and we try to access we reference the value itself.
+
+                    When we declare a variable with a data structure, and we try to access we reference where it is located. Not the value itself.
+
+                        Makes the object/array mutable.
+
+                    How they are both accessed.
+
+                        abcd EXAMPLE. 
+
+            arrays
+
+                Also another fundamental building block of any JS based project.
+
+                    The different data slots inside an array are refered to as elements.
+
+                 In JS arrays are 0 - index based.
+
+                    The first element in the array is considered to have an index of 0.
+
+                        Subsequent elements afterwards continue in ascending numerical order.
+
+                [1, 2, 3, 4, 5]
+
+                ["a", "b", "c", "d", "e"]
+
+                [
+                    {
+                        name: "Onyx",
+                        age: 1,
+                        admin: false,
+                        blackBelt: true
+                    },
+                    {
+                        name: "Nova",
+                        age: 1,
+                        admin: false,
+                        blackBelt: true
+                    },
+                ]
+
+                Accessing
+
+                    Arrays are accessed through the index.
+
+                    we simple need the bracket notation []
+
+                        passed with the index we wish to access ie:
+
+                        const arrayExample = ["a", "b", "c", "d", "e"];
+
+                        arrayExample[0] = "a"
+                        arrayExample[1] = "b"
+                        arrayExample[2] = "c"
+
+                Quick Practice.
+
+                    Make an array with 3 elements access the last element.
+
+            ** Core data structures Properties and Methods.
+
+                Built-in property/methods of arrays.
+
+                Built-in Object Methods.

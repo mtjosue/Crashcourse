@@ -84,7 +84,7 @@ HTML
 
         First property we addressed.
 
-            classnames=""
+            className=""
 
                 Property used to denote classes "styles" we wish to apply to an element.
 

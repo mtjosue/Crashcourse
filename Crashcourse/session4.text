@@ -1,0 +1,171 @@
+Subjects to cover
+
+    Functions
+
+    Scopes
+
+    Single Thread ~ Programming language
+
+        Call stack
+
+        Event Loop / Queue
+
+    Array methods / Object methods
+
+    git pull ~ push current changes
+
+    Loops
+
+Functions
+
+    Functions are how we work with data.
+
+        Their purpose is to help us write code more efficiently.
+
+    Defining/Declaring a function.
+
+        Declaration
+        
+            function nameOfFunction() {
+                
+            }
+
+        Expression
+
+            const nameOfFunction = function() {}
+
+        Arrow Function Expression
+
+            const nameOfFunction = () => {}
+
+    Functions can be defined with Parameters.
+
+        Parameters are what the function expects.
+
+        ie:
+
+            const assignAgeGroup = (name, age) => {}
+
+            const findVenueInCity = ("cafe", city) => {}
+
+    Difference in name reference.
+
+        When we are defining a function we call them parameters.
+
+            Values we use in the scope of that function.
+
+        When we are using a function we pass Arguments.
+
+            Values we use outside the scope of a function.
+
+    Example on Params, Args, and Calling functions. Greeting.
+
+Callback Functions
+
+    These are functions that are postponed in execution until some condition is met.
+
+    We will see a lot of methods and a lot of different technologies take the approach of using callbacks.
+
+JS Scopes
+
+    The scope is the current level where you have access to data from.
+
+    Two main scopes.
+
+        Global scope
+
+            Variables defined outside any function or block.
+
+        Block scope / Function scope
+        
+            Variables defined within any block.
+
+    Where and when to access variables in different scopes.
+
+        Variable can accessed if they live/are created within the current scope
+
+        or some level above where it is trying to be accessed from.
+
+            We cannot access variables from a lower scope while in a higher scope.
+
+            but we can access variable from a higher scope while in a lower scope.
+
+Array Methods / Object Methods
+
+    Array Methods come with every single array that we built.
+
+        These methods are extended from the base array constructor function called the prototype.
+
+    we access array methods throught dot notation.
+
+    some examples include:
+
+        .map
+
+            Used to create a new array based on the original without changing the original.
+
+        .filter
+
+            Used to create a new array based on the original but only to filter items from the original. 
+
+        .some
+
+            Used to check if some item/element in the array passes some conditional.
+
+        .every
+
+            Used to make sure every single item in an array passes a conditional.
+
+    Object Methods
+
+        Object methods come in a sort of different package.
+
+        instead of using the dot notation to access methods.
+
+        We first invoke the "Object" core object.
+
+            From here we can access the core Object methods. ie:
+
+            Object.keys()
+
+            Object.values()
+
+        We will seldom use them but good to know about them for whenever you may need it.
+
+Javacript is single threaded.
+
+    Only has 1 execution stack that it keeps track of.
+
+The Call Stack
+
+    The LIFO based stack of executing functions in the single threaded environment of JS.
+
+    Think of it as a stack of books, you can only grab the top book at any given time.
+
+The Event Queue
+
+    Comes from nodejs aka the javascript runtime environment.
+
+    The event handler of asynchronous code.
+
+        Any callback functions get automatically sent to the event loop to run in the background.
+
+        Once they're ready to proceed, they get pushed onto the callstack.
+
+Practice.
+
+    Create functions to console.log different data at different times.
+
+        to better understand the stack procedure think about a stack of books.
+
+            and the Event queue as a line in order.
+
+Loops
+
+    for
+
+    while
+
+    for...in
+
+    for...of

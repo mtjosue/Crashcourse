@@ -943,9 +943,9 @@ Front-end
         Custom elements / components can be modeled as we please.
 
             Example in project: *RequiredPropertyComponent*
-
+    
     React
-
+    
         React is a JavaScript library for building user interfaces (frontend), particularly for web applications. 
         
         It was developed by Facebook and is widely used by companies like Instagram, Airbnb, and Netflix.
@@ -1107,3 +1107,45 @@ Front-end
 
 
         Functional components
+
+
+        Global Objects:
+
+            console: Provides methods for logging messages to the console.
+            window: Represents the global window object in web browsers. It provides access to the browser's window features and methods.
+            document: Represents the DOM (Document Object Model) of the current web page. It provides methods and properties for interacting with the HTML document.
+
+        Data Structures:
+
+            Array: Represents an ordered collection of elements. It provides methods for manipulating arrays.
+            Object: Represents a collection of key-value pairs. It's a fundamental data structure in JavaScript.
+            Map: Represents a collection of key-value pairs where keys can be of any type.
+            Set: Represents a collection of unique values, where each value may occur only once.
+
+        Timers and Events:
+
+            setTimeout: Executes a function once after a specified delay.
+            setInterval: Executes a function repeatedly, with a fixed time delay between each call.
+            addEventListener: Adds an event listener to an object, such as DOM elements, to handle events like clicks, keypresses, etc.
+
+        Networking and Asynchronous Operations:
+
+            fetch: Allows making HTTP requests to servers and handling responses asynchronously.
+            XMLHttpRequest: An older method for making HTTP requests asynchronously.
+            Error Handling:
+            Error: Represents an error object. It provides information about runtime errors that occur during execution.
+            try...catch: A control structure for handling exceptions in JavaScript.
+
+        Utility Objects:
+
+            Math: Provides mathematical constants and functions, such as Math.PI, Math.random(), etc.
+            JSON: Provides methods for parsing JSON strings and converting JavaScript values to JSON format (JSON.parse and JSON.stringify, respectively).
+
+        Regular Expressions:
+
+            RegExp: Represents a regular expression object. It's used for pattern matching and searching within strings.
+
+        Browser APIs (for client-side development):
+
+            localStorage / sessionStorage: Provides access to the browser's local storage and session storage, respectively, for storing key-value pairs persistently or for the duration of a session.
+            navigator: Provides information about the browser environment and device, such as user agent string, geolocation, etc.
