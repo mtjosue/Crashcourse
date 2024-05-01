@@ -1,6 +1,6 @@
 import React from "react";
 
-const session3 = () => {
+const Session3 = () => {
   const a = {
     name: "Josue",
   };
@@ -35,4 +35,4 @@ const session3 = () => {
   );
 };
 
-export default session3;
+export default Session3;

@@ -4,23 +4,17 @@ Subjects to cover
 
     Scopes
 
-    Single Thread ~ Programming language
-
-        Call stack
-
-        Event Loop / Queue
-
     Array methods / Object methods
 
     git pull ~ push current changes
-
-    Loops
-
+  
 Functions
 
     Functions are how we work with data.
 
         Their purpose is to help us write code more efficiently.
+
+        Helps us encapsulate logic to be used in different parts of our code.
 
     Defining/Declaring a function.
 
@@ -65,6 +59,8 @@ Callback Functions
     These are functions that are postponed in execution until some condition is met.
 
     We will see a lot of methods and a lot of different technologies take the approach of using callbacks.
+
+    **A function that is passed as an argument.**
 
 JS Scopes
 
@@ -130,42 +126,4 @@ Array Methods / Object Methods
 
             Object.values()
 
-        We will seldom use them but good to know about them for whenever you may need it.
-
-Javacript is single threaded.
-
-    Only has 1 execution stack that it keeps track of.
-
-The Call Stack
-
-    The LIFO based stack of executing functions in the single threaded environment of JS.
-
-    Think of it as a stack of books, you can only grab the top book at any given time.
-
-The Event Queue
-
-    Comes from nodejs aka the javascript runtime environment.
-
-    The event handler of asynchronous code.
-
-        Any callback functions get automatically sent to the event loop to run in the background.
-
-        Once they're ready to proceed, they get pushed onto the callstack.
-
-Practice.
-
-    Create functions to console.log different data at different times.
-
-        to better understand the stack procedure think about a stack of books.
-
-            and the Event queue as a line in order.
-
-Loops
-
-    for
-
-    while
-
-    for...in
-
-    for...of
+        We will seldom use them, but good to know about them for whenever you may need it.

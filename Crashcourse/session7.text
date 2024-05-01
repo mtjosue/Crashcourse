@@ -1,0 +1,15 @@
+Subjects to cover
+
+    Intro to react
+
+    State principles
+
+    Component building
+
+    Passing Props
+
+    Abstraction
+
+useEffect()
+
+    Runs after the component mounts.

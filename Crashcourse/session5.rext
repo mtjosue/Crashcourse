@@ -1,0 +1,185 @@
+Subjects to cover
+
+    Loops
+
+    More Control Flow Keywords
+
+    JS Concepts
+
+        Single Thread ~ Programming language
+
+            Call stack
+
+        Event Loop / Queue
+
+    Extra Time
+
+        More Operators
+
+Loops
+
+    for
+
+        Used to loop through iterations when you have an idea of how many time you will have to do some operation.
+
+        for (let i = 0; i < n.length; i++) {
+
+        }
+
+            ++
+
+                Increment operator.
+
+            .length
+
+                Array property.
+
+    while
+
+        Used to loop through iterations when you have no idea how many times you have to do some operation.
+
+        while (truthyValue) {
+
+        }
+
+    for...in
+
+        Used to iterate through the properties of an object. Specifically the keys of that object.
+
+        for (const key in newObj) {
+
+        }
+
+    for...of
+
+        Used to iterate over "iterables". Arrays and Strings included. Not objects.
+
+            They are not iterable because they are not implemented with the iterable protocol.
+
+                They do not possess the Symbol.iterator method.
+
+                    Showcase the prototypes 
+
+                        Array is basically an object without keys.
+
+        for (let char of newStr) {
+
+        }
+
+        for (let el of newArr) {
+
+        }
+
+More Control Flow Keywords
+
+    return;
+
+        Ends the loop and returns the result.
+
+    break;
+
+        Forcefully breaks out of a loop.
+
+    continue;
+
+        Forcefully continues onto the next iteration of a loop.
+
+JS Concepts
+
+    Javacript is single threaded.
+
+        Only has 1 execution stack that it keeps track of.
+
+    The Call Stack
+
+        The LIFO based stack of executing functions in the single threaded environment of JS.
+
+        Think of it as a stack of books, you can only grab the top book at any given time.
+
+        Runs synchronously
+
+    The Event Queue
+
+        Comes from nodejs aka the javascript runtime environment.
+
+        The event handler of asynchronous code.
+
+            Any callback functions get automatically sent to the event loop to run in the background.
+
+            Once they're ready to proceed, they get pushed onto the callstack.
+
+        Handles asynchronous code.
+
+    Practice.
+
+        Create functions to console.log different data at different times.
+
+            to better understand the stack procedure think about a stack of books.
+
+                and the Event queue as a line in order.
+
+    The majority of technology works similarly to.
+
+        Objects containing properties and methods or available functions.
+
+            that expects something (Object, Object property, Object method or function.) to be passed on to it and then results in something else.
+
+                You start to wrap your head around this fact. The rest will be more welcomed.
+
+    if functions or methods recieve arguements
+
+        Therefore they are defined with parameters.
+
+    Understanding that anytime you want to or try to use any object methods from any source core object.methods or packages methods/hooks.
+
+        Those methods will be defined with parameters.
+
+    There for using any type of technology. 
+
+        Will always entail you to pass the appropriate arguments.
+
+            In order to get the outcome you expect.
+
+    To gain mastery is not about being 100% in truth.
+
+        It is about understanding your own level of understanding based on the experience you have underwent.
+
+        is about understanding that perhaps my natural response is at 70% truth out of the 100%.
+
+    Pair Programming.
+
+        Teach the following session as the dialoguer of the pair.
+
+More Operators
+
+    Math Operators
+
+        **
+
+            Exponentiation
+
+        *
+
+            Multiplication
+
+        /
+
+            Division
+            
+        +
+
+            Addition
+
+        -
+
+            Substraction
+
+        %
+
+            Remainder
+
+Just like in Arithmatic P.E.M.D.A.S.
+
+    Parenthesis, Exponents, Multiplication, Division, Addition, Substraction.
+
+        JS follows the same rules.

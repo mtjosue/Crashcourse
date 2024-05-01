@@ -4,19 +4,15 @@ Javascript
 
         JS fundamentals
 
-            Operators.
+            Operators
 
-            Control Flows.
+            Control Flows
 
-            Variable Declarations.
+            Variable Declarations
 
-            Data Structures.
+            Data Structures
 
-            Functions.
-
-        Core Objects.
-
-        Scope.
+        Core Objects
 
     Primitive Values
 
@@ -76,15 +72,17 @@ Javascript
 
                 Used as a "fall-back" block if the original if statement evaluation does not succeed.
 
-            if (addressVisible === true) {
+            Example
 
-                If addressVisible evaluates to true, do this.
+                if (addressVisible === true) {
 
-            } else {
+                    If addressVisible evaluates to true, do this.
 
-                Else if its anything else, do this.
-                
-            }
+                } else {
+
+                    Else if its anything else, do this.
+                    
+                }
 
     Variable Declaration.
 
@@ -325,4 +323,33 @@ Javascript
 
                 Built-in property/methods of arrays.
 
+                    Since every array defined is built with the Array Prototype.
+
+                        We can access array properties and methods using the dot notation on any array.
+
+                            const newArr = [1, 2, 3, 4];
+
+                            newArr.map
+
+                            newArr.sort
+
+                            newArr.filter
+
                 Built-in Object Methods.
+
+                    Objects have a different prototype they are built with.
+
+                        And we use the dot notation to access things inside objects.
+
+                            So in order to access the prototype of an object we need to use
+
+                                the core object "Object" and then access its methods and pass our object into it.
+
+                                    const person = {
+                                        name: "Josue",
+                                        age: 31,
+                                    }
+
+                                    Object.keys(person)
+
+                                    Object.values(person)

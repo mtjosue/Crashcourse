@@ -24,24 +24,25 @@ export default function Home() {
   const [allowed, setAllowed] = useState(true);
   const user = useUser();
 
-  const res = api.post.getAllPosts.useQuery(undefined, {
-    enabled: allowed,
-  });
+  // const res = api.post.getAllPosts.useQuery(undefined, {
+  //   enabled: allowed,
+  // });
 
-  const createPost = api.post.create.useMutation({
-    onSuccess(post) {
-      setAllowed(true);
-      res.refetch().catch(() => console.log("Error in the REFETCH"));
-      console.log("post in success of CREATE mutation", post);
-    },
-  });
-  const deletePost = api.post.delete.useMutation({
-    onSuccess(post) {
-      setAllowed(true);
-      res.refetch().catch(() => console.log("Error in the REFETCH"));
-      console.log("post in success of DELETE mutation", post);
-    },
-  });
+  // const createPost = api.post.create.useMutation({
+  //   onSuccess(post) {
+  //     setAllowed(true);
+  //     res.refetch().catch(() => console.log("Error in the REFETCH"));
+  //     console.log("post in success of CREATE mutation", post);
+  //   },
+  // });
+
+  // const deletePost = api.post.delete.useMutation({
+  //   onSuccess(post) {
+  //     setAllowed(true);
+  //     res.refetch().catch(() => console.log("Error in the REFETCH"));
+  //     console.log("post in success of DELETE mutation", post);
+  //   },
+  // });
 
   const {
     // watch,
@@ -60,7 +61,7 @@ export default function Home() {
     console.log("HELLO FROM SUBMIT HANDLER!");
     console.log("DATA :", data);
     resetField("text");
-    createPost.mutate({ ...data });
+    // createPost.mutate({ ...data });
     // return;
   };
 
@@ -70,11 +71,11 @@ export default function Home() {
     }
   }, [setValue, user.isSignedIn, user.user?.firstName]);
 
-  useEffect(() => {
-    if (res.isSuccess) {
-      setAllowed(false);
-    }
-  }, [res.isSuccess]);
+  // useEffect(() => {
+  //   if (res.isSuccess) {
+  //     setAllowed(false);
+  //   }
+  // }, [res.isSuccess]);
 
   // console.log("data", res);
 
@@ -144,7 +145,7 @@ export default function Home() {
             <div className="flex w-full flex-col gap-4 rounded-xl bg-white/10 p-4 text-white hover:bg-white/20">
               <h3 className="text-2xl font-bold">Feed →</h3>
               <div className="text-lg">
-                {res.data?.map((bit, idx) => {
+                {/* {res.data?.map((bit, idx) => {
                   return (
                     <p
                       key={`feedPost-${idx}`}
@@ -163,7 +164,7 @@ export default function Home() {
                       <span>{bit.text}</span>
                     </p>
                   );
-                })}
+                })} */}
               </div>
             </div>
           </div>
