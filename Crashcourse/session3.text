@@ -194,7 +194,7 @@ Javascript
                                 blackBelt: null
                             }
 
-                            person.age
+                            if (person.age) {}
 
                             person.admin
 
@@ -212,6 +212,14 @@ Javascript
                                 admin: true,
                                 blackBelt: null
                             }
+c
+                            person.name
+
+                            const findingAge = true;
+
+                            const eval = findingAge ? "age" : "admin";
+
+                            person[eval]
 
                             person["age"]
 
@@ -276,7 +284,7 @@ Javascript
 
                     The different data slots inside an array are refered to as elements.
 
-                 In JS arrays are 0 - index based.
+                In JS arrays are 0 - index based.
 
                     The first element in the array is considered to have an index of 0.
 
