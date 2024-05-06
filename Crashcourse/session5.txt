@@ -14,6 +14,8 @@ Subjects to cover
 
     Extra Time
 
+        Destructuring from objects and arrays.
+
         More Operators
 
 Loops
@@ -139,12 +141,6 @@ JS Concepts
         Will always entail you to pass the appropriate arguments.
 
             In order to get the outcome you expect.
-
-    To gain mastery is not about being 100% in truth.
-
-        It is about understanding your own level of understanding based on the experience you have underwent.
-
-        is about understanding that perhaps my natural response is at 70% truth out of the 100%.
 
     Pair Programming.
 

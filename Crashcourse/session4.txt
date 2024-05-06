@@ -30,7 +30,9 @@ Functions
 
         Arrow Function Expression
 
-            const nameOfFunction = () => {}
+            const nameOfFunction = () => {
+
+            }
 
     Functions can be defined with Parameters.
 
@@ -38,9 +40,11 @@ Functions
 
         ie:
 
-            const assignAgeGroup = (name, age) => {}
+            const assignAgeGroup = (name, age) => {
+                name, age
+            }
 
-            const findVenueInCity = ("cafe", city) => {}
+            const findVenueInCity = (cafe, city) => {}
 
     Difference in name reference.
 

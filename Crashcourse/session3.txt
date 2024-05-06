@@ -72,16 +72,16 @@ Javascript
 
                 Used as a "fall-back" block if the original if statement evaluation does not succeed.
 
-            Example
+            Example::
+
+                const addressVisible = (false or true);
 
                 if (addressVisible === true) {
 
                     If addressVisible evaluates to true, do this.
-
                 } else {
 
-                    Else if its anything else, do this.
-                    
+                    Else if its anything else, do this.   
                 }
 
     Variable Declaration.
@@ -212,7 +212,7 @@ Javascript
                                 admin: true,
                                 blackBelt: null
                             }
-c
+
                             person.name
 
                             const findingAge = true;

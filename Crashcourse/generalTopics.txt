@@ -1,0 +1,67 @@
+Main Fundamental Subjects
+
+    Rubber Ducking
+
+    --
+
+    Primitive Values
+
+    --
+
+    Variable Declaration
+
+    --
+
+    Variable Invocation
+
+    --
+
+    Data Structures
+
+    --
+
+    Accessing Data Structures
+
+    --
+
+    Core / Native / Built-in Objects
+
+    --
+
+    Functions
+
+    --
+
+    Parameters vs Arguments
+
+    --
+
+    Function Invocation
+
+    --
+
+    Function Execution
+
+    --
+
+    Methods
+
+    --
+
+    Method Invocation
+    
+    --
+
+    Method Execution
+
+    --
+
+    Scope
+
+    --
+
+    Operators
+
+    --
+
+    Control Flow Keywords

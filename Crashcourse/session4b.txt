@@ -1,0 +1,15 @@
+Try running the env.example code in place of DATABASEURL.
+
+    See if the projects runs like that.
+
+Further Accessing 
+
+    arrays within Objects.
+
+    Objects within arrays.
+
+Abstraction
+
+    Abstracting the callback function from setTimeout.
+
+    Encapsulating logic to be used in different places.
