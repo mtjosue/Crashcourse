@@ -12,6 +12,8 @@ Universal Subjects
 
         Function
 
+            Parameters
+
     Invocation
 
         Variable Invocation with Scope
@@ -24,11 +26,7 @@ Universal Subjects
 
         Parenthesis () executes functions
 
-        Passing arguments to function executions
-
-            Based on defined parameters
-
-            Which may be "required" or may be "optional"
+            Arguments with function executions
 
     Control
 
@@ -47,8 +45,6 @@ Universal Subjects
             Math
 
             Logical
-
-            Ternary
 
     Loops
 
@@ -71,3 +67,4 @@ Concept Subjects
     Synchronous
 
     Asynchronous
+    
