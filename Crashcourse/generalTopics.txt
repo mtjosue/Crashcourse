@@ -1,67 +1,73 @@
-Main Fundamental Subjects
+Universal Subjects
 
-    Rubber Ducking
+    Values 
 
-    --
+        Primitives
 
-    Primitive Values
+        Data Structures
 
-    --
+    Declaration
 
-    Variable Declaration
+        Variable
 
-    --
+        Function
 
-    Variable Invocation
+    Invocation
 
-    --
+        Variable Invocation with Scope
 
-    Data Structures
+        Built-in / Core objects
 
-    --
+        Method Invocation from Objects
 
-    Accessing Data Structures
+    Execution
 
-    --
+        Parenthesis () executes functions
 
-    Core / Native / Built-in Objects
+        Passing arguments to function executions
 
-    --
+            Based on defined parameters
 
-    Functions
+            Which may be "required" or may be "optional"
 
-    --
+    Control
 
-    Parameters vs Arguments
+        Used to decide when to do something.
 
-    --
-
-    Function Invocation
-
-    --
-
-    Function Execution
-
-    --
-
-    Methods
-
-    --
-
-    Method Invocation
-    
-    --
-
-    Method Execution
-
-    --
-
-    Scope
-
-    --
+            if, else...
 
     Operators
 
-    --
+        Used to perform an operation.
 
-    Control Flow Keywords
+            Assignment
+
+            Comparison
+            
+            Math
+
+            Logical
+
+            Ternary
+
+    Loops
+
+        Used to repeat an action.
+
+            for
+
+            while
+
+            for...in
+
+            for...of
+
+Concept Subjects
+
+    Rubber Duck Debugging
+
+    Universal Workflows and Fundamental Understanding
+
+    Synchronous
+
+    Asynchronous
