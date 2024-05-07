@@ -8,6 +8,8 @@ Further Accessing
 
     Objects within arrays.
 
+    Destructuring.
+
 Abstraction
 
     Abstracting the callback function from setTimeout.
