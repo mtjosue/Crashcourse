@@ -1,5 +1,5 @@
 // "use client"
-import { SignInButton, SignOutButton, useUser } from "@clerk/nextjs";
+// import { SignInButton, SignOutButton, useUser } from "@clerk/nextjs";
 import Head from "next/head";
 // import Link from "next/link";
 import { useEffect, useState } from "react";
@@ -22,7 +22,7 @@ type PostFormSchema = z.infer<typeof postFormSchema>;
 
 export default function Home() {
   const [allowed, setAllowed] = useState(true);
-  const user = useUser();
+  // const user = useUser();
 
   // const res = api.post.getAllPosts.useQuery(undefined, {
   //   enabled: allowed,
@@ -65,11 +65,11 @@ export default function Home() {
     // return;
   };
 
-  useEffect(() => {
-    if (user.isSignedIn) {
-      setValue("name", user.user.firstName ?? "No Name Found");
-    }
-  }, [setValue, user.isSignedIn, user.user?.firstName]);
+  // useEffect(() => {
+  //   if (user.isSignedIn) {
+  //     setValue("name", user.user.firstName ?? "No Name Found");
+  //   }
+  // }, [setValue, user.isSignedIn, user.user?.firstName]);
 
   // useEffect(() => {
   //   if (res.isSuccess) {
@@ -96,7 +96,7 @@ export default function Home() {
           <h1 className="text-5xl font-extrabold tracking-tight text-white sm:text-[5rem]">
             Crash <span className="text-[hsl(280,100%,70%)]">Course</span> App
           </h1>
-          {user.user && (
+          {/* {user.user && (
             <div className="w-full">
               <form
                 className="flex gap-x-3"
@@ -125,9 +125,9 @@ export default function Home() {
                 </button>
               </form>
             </div>
-          )}
+          )} */}
           <div className="flex w-full gap-3 md:gap-8">
-            {user.isSignedIn ? (
+            {/* {user.isSignedIn ? (
               <div className="flex w-full gap-4 rounded-xl bg-white/10 p-4 text-white hover:bg-white/20">
                 <div className="">
                   <h3 className="m-4 rounded-md border-2 border-red-400 p-4 text-2xl font-bold">
@@ -141,7 +141,7 @@ export default function Home() {
               <div className="flex w-full justify-center gap-4 rounded-xl bg-white/10 p-4 text-white hover:bg-white/20">
                 <SignInButton />
               </div>
-            )}
+            )} */}
             <div className="flex w-full flex-col gap-4 rounded-xl bg-white/10 p-4 text-white hover:bg-white/20">
               <h3 className="text-2xl font-bold">Feed →</h3>
               <div className="text-lg">
