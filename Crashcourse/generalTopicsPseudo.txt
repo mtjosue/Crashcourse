@@ -1,0 +1,173 @@
+Universal Concepts
+
+    Values 
+
+        Primitives
+
+            Values that can be stored.
+
+        Data Structures
+
+            Groups of values that can be stored.
+
+    Declarations
+
+        let 
+
+            Declare a value which we anticipate will change.
+
+        const
+
+            Declare a value which we do not anticipate will change.
+
+        Variables
+
+            Objects
+
+                Denoted by { } Curly Brackets
+
+            Arrays
+
+                Denoted by [ ] Square Brackets
+
+        Function
+
+            A block of reusable code that performs a specific task.
+
+                Parameters
+
+                    What this function will expect.
+
+                        Defined when we define a function. 
+
+                            Can be REQUIRED or OPTIONAL.
+
+    Invocations
+
+        Object properties
+
+            const vehicle = {
+                brand: "Honda",
+                model: "Civic",
+            }
+
+            Dot Notation 
+
+                truck.brand => "Honda"
+
+            Bracket Notation
+
+                truck["model"] => "Civic"
+        
+        Array elements
+
+            conts brands = ["Honda", "Toyota", "Nissan"]
+
+            Bracket Notation *With index*
+
+                brands[1] => "Toyota"
+            
+                brands[brands.length - 1] => "Nissan"
+
+        Variables within scope
+
+            Where are declared variables able to be invoked from.
+
+        Built-in / Core objects
+
+            Objects that are predefined for us to invoke from anywhere in our project.
+
+        Methods
+
+            Predefined functions that are related to some object as a property.
+
+    Executions
+
+        Parenthesis ()
+
+            Functions and Methods are executed via appending a parenthesis to the end of the invocation ()
+
+                Invocation
+
+                    console.log
+
+                Execution
+
+                    console.log("Hello World");
+
+            Arguments
+
+                Values that we pass to a function execution. Primitives, Structures, and even other functions can be passed as an argument.
+
+                    Declaration
+
+                        const introduce = (name: string) => {
+                            let introStr = "Hello, my name is" + " " + name;
+                            console.log(introStr);
+                        }
+
+                    Execution
+
+                        introduce("Josue") => "Hello, my name is Josue"
+
+    Control
+
+        Decision making / When are things happening?
+
+            if, else...
+
+    Operators
+
+        Perform an operation.
+
+            Assignment
+
+            Comparison
+            
+            Math
+
+            Logical
+
+    Loops
+
+        Used to repeat an action.
+
+            for
+
+            while
+
+            for...in
+
+            for...of
+
+Concept Subjects
+
+    Rubber Duck Debugging
+
+    Universal Workflows and Fundamental Understanding
+
+    Synchronous
+
+    Asynchronous
+
+    Values 
+
+        Primitives
+
+            "Hello World"
+            10
+            false
+            null
+            undefined
+
+        Data Structures
+
+            const person = {
+                name: "Josue",
+                age: 31,
+                isOnline: true,
+                isPregnant: null,
+                cats: ?
+            }
+
+            person.supercars => undefined

@@ -1,0 +1,221 @@
+Universal Concepts
+
+    Values 
+
+        Primitives
+
+            "Hello World"
+            10
+            false
+            null
+            undefined
+
+        Data Structures
+
+            {
+                name: "Josue",
+                age: 31,
+                isOnline: true,
+            }
+
+            ["Red", "Green", "Blue"]
+
+    Declaration
+
+        Variable
+
+            let score = 0;
+
+            const player = {
+                username: "Ninja",
+                gameWon: 3,
+                isAdmin: false,
+            };
+
+            const games = ["Fall Guys", "Halo", "Call of Duty"];
+
+        Function
+
+            Declaration
+
+                function greetFD() {
+                    console.log("Hello from a Function Declaration");
+                };
+
+            Expression
+
+                const greetFE = () => {
+                    console.log("Hello World from a Function Expression");
+                };
+
+                const greet = () => console.log("Hello from an implicit return");
+
+            Parameters
+
+                const greet = (name: string) => {
+                    console.log("hello ", name, "!")
+                }
+
+                const introduce = (name: string, age: number) => {
+                    let introStr = "My name is" + " " + name + " " + "and I am" + " " + age + " " + "years old."; 
+                    console.log(introStr);
+                }
+
+    Invocation
+
+        Object properties
+
+            const person = {
+                name: "Josue"
+            };
+
+            person.name => "Josue"
+
+            person["name"] => "Josue"
+        
+        Array elements
+
+            const cats = ["Onyx", "Nova"];
+
+            cats[0] => "Onyx"
+
+            cats[1] => "Nova"
+
+        Variables within scope
+
+            const outside = true;
+
+            const where = () => {
+                const inside = true;
+                console.log(outside); => true
+            }
+
+            console.log(inside); => undefined
+
+        Built-in / Core objects
+
+            Objects that have "Global Scope"
+
+                console
+
+                Math
+
+                navigator
+
+        Methods
+
+            Array Methods
+
+                const list = [1, 2, 3];
+
+                list.map()
+                list.filter()
+                list.some()
+
+            Object Methods
+
+                const player = {
+                    username: "Ninja",
+                    createdAt: "June 5, 1991"
+                }
+
+                Object.keys(player);
+                Object.values(player);
+
+    Execution
+
+        Parenthesis ()
+
+            greet()
+
+            console.log()
+
+        Arguments
+
+            const introduce = (name: string, age: number) => {
+                let introStr = "My name is" + " " + name + " " + "and I am" + " " + age + " " + "years old."; 
+                console.log(introStr);
+            }
+
+            introduce("Josue", 31) => "My name is Josue and I am 31 years old."
+
+    Control
+
+        Decision making
+
+            const toggle = true;
+
+            if (toggle) {
+                console.log("Toggle is ON")
+                toggle = false;
+            } else {
+                console.log("Toggle is OFF")
+            }
+
+    Operators
+
+        Perform an operation.
+
+            Assignment
+
+                let count = 0;
+
+                count = 1;
+
+            Comparison
+
+                Strictly Equal
+
+                    if (count === 1) {
+
+                    }
+
+                Strictly Not Equal
+
+                    if (count !== 0) {
+
+                    }
+            
+            Math
+
+                let total = 5 * 4 / 3 + 2 - 1; 
+
+            Logical
+
+                let first = true;
+                let second = true;
+
+                if (first && second) {
+                    console.log("first and second are true");
+                } else {
+                    console.log("Neither was true");
+                }
+
+                if (first || second) {
+                    console.log("Either was true");
+                } else {
+                    console.log("Neither was true");
+                }
+
+    Loops
+
+        Used to repeat an action.
+
+            for
+
+            while
+
+            for...in
+
+            for...of
+
+Concept Subjects
+
+    Rubber Duck Debugging
+
+    Universal Workflows and Fundamental Understanding
+
+    Synchronous
+
+    Asynchronous
+
