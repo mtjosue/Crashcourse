@@ -57,7 +57,7 @@ const Session6 = () => {
   //   const fifth = test.fifth;
   const { fifth } = test;
 
-  //Renaming & Default Values
+  //Destructuring, Renaming & Default Values
   const { fifth: newVar = true } = test;
 
   //Value of a Arrow Function Expression?

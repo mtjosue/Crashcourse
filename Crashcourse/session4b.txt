@@ -15,3 +15,9 @@ Abstraction
     Abstracting the callback function from setTimeout.
 
     Encapsulating logic to be used in different places.
+
+DB
+
+    columns
+
+    rows

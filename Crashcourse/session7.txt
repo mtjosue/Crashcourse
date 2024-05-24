@@ -10,6 +10,8 @@ Subjects to cover
 
     Abstraction
 
-useEffect()
+hooks
 
-    Runs after the component mounts.
+    useEffect()
+
+        Runs after the component mounts.
